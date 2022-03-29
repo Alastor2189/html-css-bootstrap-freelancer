@@ -1,4 +1,33 @@
 header {
     background-color: #2c3e50;
     color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo {
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.logo h2 {
+    text-transform: uppercase;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
