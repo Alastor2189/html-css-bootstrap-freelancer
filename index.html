@@ -33,6 +33,9 @@
                             </ul>
 
                         </nav>
+                        <div class="menu-burger">
+                            <i class="fas fa-bars"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,34 +87,32 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/cake.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/circus.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/game.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/safe.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <img src="img/submarine.png" alt="">
                         </div>
@@ -129,16 +130,16 @@
                 </div>
                 <div class="about-content">
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-12 col-md-5">
                             <p>Freelancer is a free bootsrap thrme created by Start Boostrap. The download includes th complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-md-5">
                             <p>
                                 Wheter you're a student looking to showcase your work, a professionale looking to attract clients, or a graphics artist looking to share your projects, this template is the perfect starting point!
                             </p>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-1">
+                            <div class="col-12 col-md-4 col-lg-2">
                                 <div class="button-download">
                                     <button type="button" class="btn btn-outline-success"> <i class="fas fa-download"></i> Download</button>
                                 </div>
@@ -166,19 +167,28 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-9">
-                        <div class="list-date">
-                            <ul>
-                                <li>Name</li>
-                                <hr>
-                                <li>Email Adress</li>
-                                <hr>
-                                <li>Phone Number</li>
-                                <hr>
-                                <li>Message</li>
-                                <hr class="text">
-                                <li class="btn-send"><button>Send</button></li>
-                            </ul>
-                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Email Adress</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
 
                     </div>
 
@@ -191,13 +201,13 @@
         <div class="top-footer">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-3 text-center">
+                    <div class="col-12 col-md-4 text-center">
                         <h4 class="text-uppercase">
                             location
                         </h4>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-3 text-center">
+                    <div class="col-12 col-md-4 text-center">
                         <div class="title-social">
                             <h4 class="text-uppercase">around the web</h4>
                         </div>
@@ -209,7 +219,7 @@
                         </div>
 
                     </div>
-                    <div class="col-3 text-center">
+                    <div class="col-12 col-md-4 text-center">
                         <h4 class="text-uppercase">about freelancer</h4>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a class="text-boot" href="#">Start Bootstrap</a></p>
                     </div>

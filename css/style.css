@@ -84,7 +84,6 @@ li a {
 }
 
 .box {
-    height: 250px;
     width: 100%;
     margin: 1rem auto;
 }
@@ -125,6 +124,19 @@ li a {
     margin-top: 5rem;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
 
 /* FOOTER */
 
@@ -141,8 +153,36 @@ li a {
 .social i {
     border: 1px solid white;
     border-radius: 67px;
-    margin: 0 10px;
-    padding: 19px 20px;
-    width: 56px;
-    height: 56px;
+    margin: 0 5px;
+    padding: 16px 17px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width:769px) {
+    .menu {
+        display: block;
+    }
+    .menu-burger {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+    .portfolio {
+        padding: 3rem 0;
+    }
+    .line {
+        width: 20%;
+        margin: 0 5px;
+    }
+    footer .row>div {
+        padding: 1.5rem;
+    }
 }
